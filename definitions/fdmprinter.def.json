@@ -5767,6 +5767,13 @@
                     "enabled": "support_enable and support_structure == 'normal'",
                     "settable_per_mesh": true
                 },
+                "prime_tower_mode": {
+                    "label": "Prime Tower Type",
+                    "description": "\"Normal\" Creates a bucket in which secondary materials are primed. \"Interleaved\" creates a prime tower as sparse as possible. This will save time and filament, but is only possible if the used materials adhere to each other.",
+                    "type": "str",
+                    "default_value": "Normal",
+                    "enabled": true
+                },
                 "support_tower_diameter":
                 {
                     "label": "Tower Diameter",
@@ -6048,6 +6055,16 @@
                             "settable_per_extruder": true
                         }
                     }
+                },
+                "brim_location": {
+                    "label": "Brim Location",
+                    "description": "Depending on the model, this helps reducing the amount of brim you need to remove afterwards, while ensuring a proper bed adhesion.",
+                    "unit": "mm",
+                    "type": "float",
+                    "default_value": 0,
+                    "enabled": true,
+                    "settable_per_mesh": false,
+                    "settable_per_extruder": false
                 },
                 "brim_gap":
                 {
@@ -7225,6 +7242,15 @@
                     "enabled": "extruders_enabled_count > 1",
                     "default_value": false,
                     "resolve": "(extruders_enabled_count > 1) and any(extruderValues('interlocking_enable'))",
+                    "settable_per_mesh": false,
+                    "settable_per_extruder": false
+                },
+                "ppr_enable":
+                {
+                    "label": "Enable Print Process Reporting",
+                    "description": "Enable print process reporting for setting threshold values for possible fault detection.",
+                    "type": "bool",
+                    "default_value": true,
                     "settable_per_mesh": false,
                     "settable_per_extruder": false
                 },
