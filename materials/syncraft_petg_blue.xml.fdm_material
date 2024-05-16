@@ -21,6 +21,7 @@
   </properties>
   <settings>
 	<cura:setting key="material_family">M_CHAMBER_TEMP</cura:setting>
+  <setting key="print temperature">240</setting>
 	<machine>
       <machine_identifier manufacturer="Syncraft" product="Syncraft X1" />
       <setting key="print temperature">240</setting>
