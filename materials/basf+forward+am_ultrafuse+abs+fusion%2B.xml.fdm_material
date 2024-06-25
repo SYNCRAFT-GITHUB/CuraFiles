@@ -171,7 +171,7 @@
       </hotend>
 	</machine>
 	<machine>
-      <machine_identifier manufacturer="Syncraft" product="Syncraft Idex" />
+      <machine_identifier manufacturer="Syncraft" product="Syncraft IDEX" />
 	  <cura:setting key="raft_airgap">0.15</cura:setting>
       <cura:setting key="infill_line_width">0.4</cura:setting>
       <setting key="print cooling">2</setting>

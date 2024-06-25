@@ -21,7 +21,7 @@
 	<cura:setting key="material_family">L_CHAMBER_TEMP</cura:setting>
   <setting key="print temperature">205</setting>
     <machine>
-      <machine_identifier manufacturer="Syncraft" product="Syncraft X1" />
+      <machine_identifier manufacturer="Syncraft" product="Syncraft IDEX" />
       <setting key="print temperature">205</setting>
       <setting key="heated bed temperature">60</setting>
       <setting key="print cooling">100</setting>
