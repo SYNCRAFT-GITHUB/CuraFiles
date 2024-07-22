@@ -24,7 +24,8 @@
   <setting key="print temperature">240</setting>
 	<machine>
       <machine_identifier manufacturer="Syncraft" product="Syncraft X1" />
-      <setting key="print temperature">240</setting>
+      <setting key="print temperature">235</setting>
+	  <setting key="cool_min_temperature">225</setting>
       <setting key="heated bed temperature">85</setting>
       <setting key="print cooling">100</setting>
 	  <hotend id="Metal 0.4mm">
@@ -55,7 +56,8 @@
 	</machine>
   <machine>
       <machine_identifier manufacturer="Syncraft" product="Syncraft IDEX" />
-      <setting key="print temperature">240</setting>
+      <setting key="print temperature">235</setting>
+	  <setting key="cool_min_temperature">225</setting>
       <setting key="heated bed temperature">85</setting>
       <setting key="print cooling">100</setting>
 	  <hotend id="Metal 0.4mm">
