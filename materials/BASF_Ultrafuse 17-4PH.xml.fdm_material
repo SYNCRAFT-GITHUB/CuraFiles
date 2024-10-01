@@ -130,5 +130,32 @@
         <setting key="hardware compatible">no</setting>
       </hotend>
 	</machine>
+  <machine>
+      <machine_identifier manufacturer="Syncraft" product="Syncraft Metal" />
+      <hotend id="Metal 0.4mm">
+        <setting key="hardware compatible">yes</setting>
+		<setting key="retraction amount">6.5</setting>
+      </hotend>
+      <hotend id="Metal 0.6mm">
+        <setting key="hardware compatible">yes</setting>
+		<setting key="retraction amount">3.5</setting>
+      </hotend>
+      <hotend id="Metal 0.8mm">
+        <setting key="hardware compatible">yes</setting>
+		<setting key="retraction amount">3.5</setting>
+      </hotend>
+	  <hotend id="Standard 0.4mm">
+        <setting key="hardware compatible">no</setting>
+      </hotend>
+	  <hotend id="Fiber 0.6mm">
+        <setting key="hardware compatible">no</setting>
+      </hotend>
+	  <hotend id="Standard 0.8mm">
+        <setting key="hardware compatible">no</setting>
+      </hotend>
+	  <hotend id="Standard 0.25mm">
+        <setting key="hardware compatible">no</setting>
+      </hotend>
+	</machine>
   </settings>
 </fdmmaterial>

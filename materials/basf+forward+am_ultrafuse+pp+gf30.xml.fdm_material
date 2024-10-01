@@ -154,5 +154,32 @@
         <setting key="hardware compatible">no</setting>
       </hotend>
 	</machine>
+  <machine>
+      <machine_identifier manufacturer="Syncraft" product="Syncraft Metal" />
+      <setting key="adhesion tendency">0</setting>
+      <cura:setting key="speed_layer_0">15</cura:setting>
+      <setting key="surface energy">70</setting>
+      <hotend id="Metal 0.4mm">
+        <setting key="hardware compatible">no</setting>
+      </hotend>
+      <hotend id="Metal 0.6mm">
+        <setting key="hardware compatible">no</setting>
+	   </hotend>
+     <hotend id="Metal 0.8mm">
+        <setting key="hardware compatible">no</setting>
+	   </hotend>
+      <hotend id="Standard 0.4mm">
+        <setting key="hardware compatible">no</setting>
+      </hotend>
+	  <hotend id="Fiber 0.6mm">
+        <setting key="hardware compatible">yes</setting>
+      </hotend>
+	  <hotend id="Standard 0.8mm">
+        <setting key="hardware compatible">no</setting>
+      </hotend>
+	  <hotend id="Standard 0.25mm">
+        <setting key="hardware compatible">no</setting>
+      </hotend>
+	</machine>
   </settings>
 </fdmmaterial>
