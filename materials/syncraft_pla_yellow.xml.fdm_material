@@ -21,6 +21,37 @@
 	<cura:setting key="material_family">L_CHAMBER_TEMP</cura:setting>
   <setting key="print temperature">205</setting>
     <machine>
+      <machine_identifier manufacturer="Syncraft" product="Syncraft X1" />
+      <setting key="print temperature">205</setting>
+      <setting key="heated bed temperature">60</setting>
+      <setting key="print cooling">100</setting>
+      <hotend id="Metal 0.4mm">
+		<setting key="hardware compatible">no</setting>
+        <setting key="standby temperature">100</setting>
+        <cura:setting key="material_crystallinity">true</cura:setting>
+      </hotend>
+      <hotend id="Standard 0.4mm">
+        <setting key="hardware compatible">yes</setting>
+        <setting key="standby temperature">100</setting>
+        <cura:setting key="material_crystallinity">true</cura:setting>
+      </hotend>
+	  <hotend id="Fiber 0.6mm">
+        <setting key="hardware compatible">yes</setting>
+        <setting key="standby temperature">100</setting>
+        <cura:setting key="material_crystallinity">true</cura:setting>
+      </hotend>
+	  <hotend id="Standard 0.8mm">
+        <setting key="hardware compatible">yes</setting>
+        <setting key="standby temperature">100</setting>
+        <cura:setting key="material_crystallinity">true</cura:setting>
+      </hotend>
+	  <hotend id="Standard 0.25mm">
+        <setting key="hardware compatible">yes</setting>
+        <setting key="standby temperature">100</setting>
+        <cura:setting key="material_crystallinity">true</cura:setting>
+      </hotend>
+	</machine>
+    <machine>
       <machine_identifier manufacturer="Syncraft" product="Syncraft IDEX" />
       <setting key="print temperature">205</setting>
       <setting key="heated bed temperature">60</setting>
@@ -30,6 +61,43 @@
         <setting key="standby temperature">100</setting>
         <cura:setting key="material_crystallinity">true</cura:setting>
       </hotend>
+      <hotend id="Standard 0.4mm">
+        <setting key="hardware compatible">yes</setting>
+        <setting key="standby temperature">100</setting>
+        <cura:setting key="material_crystallinity">true</cura:setting>
+      </hotend>
+	  <hotend id="Fiber 0.6mm">
+        <setting key="hardware compatible">yes</setting>
+        <setting key="standby temperature">100</setting>
+        <cura:setting key="material_crystallinity">true</cura:setting>
+      </hotend>
+	  <hotend id="Standard 0.8mm">
+        <setting key="hardware compatible">yes</setting>
+        <setting key="standby temperature">100</setting>
+        <cura:setting key="material_crystallinity">true</cura:setting>
+      </hotend>
+	  <hotend id="Standard 0.25mm">
+        <setting key="hardware compatible">yes</setting>
+        <setting key="standby temperature">100</setting>
+        <cura:setting key="material_crystallinity">true</cura:setting>
+      </hotend>
+	</machine>
+  <machine>
+      <machine_identifier manufacturer="Syncraft" product="Syncraft Metal" />
+      <setting key="print temperature">205</setting>
+      <setting key="heated bed temperature">60</setting>
+      <setting key="print cooling">100</setting>
+      <hotend id="Metal 0.4mm">
+		<setting key="hardware compatible">no</setting>
+        <setting key="standby temperature">100</setting>
+        <cura:setting key="material_crystallinity">true</cura:setting>
+      </hotend>
+      <hotend id="Metal 0.6mm">
+        <setting key="hardware compatible">no</setting>
+	   </hotend>
+     <hotend id="Metal 0.8mm">
+        <setting key="hardware compatible">no</setting>
+	   </hotend>
       <hotend id="Standard 0.4mm">
         <setting key="hardware compatible">yes</setting>
         <setting key="standby temperature">100</setting>
