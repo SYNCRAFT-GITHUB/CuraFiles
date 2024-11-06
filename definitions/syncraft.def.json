@@ -61,6 +61,12 @@
         "skin_monotonic" : {
             "value": true
         },
+        "skirt_line_count" : {
+            "value": "2"
+        },
+		"skirt_height" : {
+            "value": "1"
+        },
         "speed_equalize_flow_width_factor": {
             "value": "110.0"
         },
