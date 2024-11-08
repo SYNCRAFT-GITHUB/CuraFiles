@@ -84,7 +84,7 @@
         "infill_wipe_dist": { "value": "machine_nozzle_size / 2" },
         "jerk_enabled": { "value": "False" },
         "layer_height_0": { "value": "round(machine_nozzle_size / 1.6, 2)" },
-        "layer_start_x": { "value": "sum(extruderValues('machine_extruder_start_pos_x')) / len(extruderValues('machine_extruder_start_pos_x'))" },
+        "layer_start_x": { "value": "75" },
         "layer_start_y": { "value": "sum(extruderValues('machine_extruder_start_pos_y')) / len(extruderValues('machine_extruder_start_pos_y'))" },
         "layer_height": { "default_value": 0.2 },
         "line_width": { "value": "machine_nozzle_size" },
