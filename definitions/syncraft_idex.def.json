@@ -92,7 +92,7 @@
         "default_material_print_temperature": { "value": "200" },
         "material_standby_temperature": { "value": "100" },
         "multiple_mesh_overlap": { "value": "0" },
-        "prime_tower_position_x": { "value": "150" },
+        "prime_tower_position_x": { "value": "80" },
         "prime_tower_position_y": { "value": "270 if prime_tower_enable >= 1 else 150" },
         "retraction_amount": { "default_value": 6.5 },
         "retraction_count_max": { "value": "10" },
