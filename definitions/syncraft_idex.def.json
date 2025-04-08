@@ -8,6 +8,7 @@
         "manufacturer": "Syncraft",
         "file_formats": "application/x-ufp;text/x-gcode",
         "platform": "syncraft.obj",
+        "platform_texture": "syncraft_bed.png",
         "platform_offset": [-187.5, -21.5, -165],        
         "has_machine_quality": true,
         "has_materials": true,
